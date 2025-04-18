@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Load an image to display at the top of the title
-top_image = "top_image.jpg"  # Replace with the path to your image file
+top_image = "Diseases.png"  # Replace with the path to your image file
 
 # Apply CSS styles for centering elements
 center_style = """
