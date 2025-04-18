@@ -1,6 +1,12 @@
 import streamlit as st
 from PIL import Image
 
+# Load an image to display at the top of the title
+top_image = "top_image.jpg"  # Replace with the path to your image file
+
+# Display the top image
+st.image(top_image, caption="Plant Disease Detection", use_column_width=True)
+
 # Title of the app
 st.title("Plant Disease Detection App")
 
@@ -26,4 +32,12 @@ if uploaded_file is not None:
         st.error("Error processing the image. Please upload a valid file.")
 
 # Footer
-st.write("Powered by AI for Smart Agriculture")
+st.write("Receive instant predictions.")
+st.markdown("""
+**How It Works**
+- Navigate to the "Disease Recognition" page.
+- Upload an image of the affected plant.
+- Get instant results along with disease information.
+
+*Developed by Team AgriSens | Powered by Streamlit*
+""")
