@@ -20,7 +20,7 @@ st.markdown(center_style, unsafe_allow_html=True)
 st.markdown('<div class="centered">', unsafe_allow_html=True)
 
 # Display the top image
-st.image(top_image, caption="Plant Disease Detection", use_column_width=False)
+st.image(top_image, caption="Plant Disease Detection", use_container_width=True)
 
 # Title of the app
 st.title("Plant Disease Detection App")
@@ -40,7 +40,7 @@ if uploaded_file is not None:
         # Open and display the image
         img = Image.open(uploaded_file)
         st.markdown('<div class="centered">', unsafe_allow_html=True)
-        st.image(img, caption="Uploaded Image", use_column_width=True)
+        st.image(img, caption="Uploaded Image", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
         # Simulate disease detection (placeholder functionality)
