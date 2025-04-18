@@ -55,9 +55,11 @@ st.markdown("""
 <div class="centered">
 <p>Receive instant predictions.</p>
 <b>How It Works</b>
-<p>Navigate to the "Disease Recognition" page.<br>
-Upload an image of the affected plant.<br>
-Get instant results along with disease information.</p>
+<ul>
+<li>Navigate to the "Disease Recognition" page.</li>
+<li>Upload an image of the affected plant.</li>
+<li>Get instant results along with disease information.</li>
+</ul>
 <i>Developed by Team AgriSens | Powered by Streamlit</i>
 </div>
 """, unsafe_allow_html=True)
