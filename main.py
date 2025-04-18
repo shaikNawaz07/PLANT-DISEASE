@@ -60,6 +60,6 @@ st.markdown("""
 <li>Upload an image of the affected plant.</li>
 <li>Get instant results along with disease information.</li>
 </ul>
-<i>Developed by Team AgriSens | Powered by Streamlit</i>
+<i>Developed by Team FarmCure</i>
 </div>
 """, unsafe_allow_html=True)
